@@ -1,0 +1,1044 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.header{
+   width: 7.5rem;
+   height:2.68rem;
+   overflow: hidden;
+   position: relative;
+}
+.shopimg{
+    width: 1.28rem;
+    height: 1.28rem;
+    display: block;
+    margin: 0.48rem 0.32rem 0.36rem 0.48rem;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bg{
+    width: 100%;
+    height: 5rem;
+    filter: blur(10px);
+}
+.mengceng{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 17, 27, 0.5);
+    z-index: 1;
+}
+.pptext{
+    position: absolute;
+    left:2.08rem;
+    top: 0.48rem;
+    z-index: 1;
+}
+.brand{
+    position: absolute;
+    left: 0;
+    top: 0.04rem;
+    width: 0.6rem;
+    height: 0.36rem;
+}
+.shop_name{
+    font-size: 0.32rem;
+    color: white;
+    font-weight: bold;
+    line-height: 0.36rem;
+    margin-left: 0.72rem;
+}
+.express{
+    position: absolute;
+    font-size: 0.24rem;
+    color: white;
+    font-weight: 200;
+    line-height: 0.24rem;
+    top: 0.56rem;
+}
+.decrease{
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.discounts{
+    position: absolute;
+    font-size: 0.2rem;
+    color: white;
+    font-weight: 200;
+    line-height: 0.24rem;
+    top: 1rem;
+    left: 0.32rem;
+}
+.buttom{
+    position: absolute;
+    width: 0.85rem;
+    height: 0.48rem;
+    background-color: rgb(0, 0, 0,0.2);
+    border-radius: 0.3rem;
+    right:0.24rem;
+    bottom: 0.86rem;
+    font-size: 0.2rem;
+    color: white;
+    font-weight: 200;
+    line-height: 0.48rem;
+    text-align: center;
+    z-index: 1;
+}
+.head_foot{
+    position: absolute;
+    width: 100%;
+    height: 0.56rem;
+    background:rgb(7, 17,27,0.2);
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.bulletin{
+    position: absolute;
+    width: 0.44rem;
+    height: 0.24rem;
+    left: 0.24rem;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.intro{
+    width: 6.19rem;
+    font-size: 0.2rem;
+    color:white;
+    font-weight: 200;
+    line-height: 0.56rem;
+    position: absolute;
+    left: 0.76rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;  
+}
+.gt{
+    font-size: 0.2rem;
+    color:white;
+    font-weight: 200;
+    line-height: 0.56rem;
+    position: absolute;
+    right: 0.24rem;
+}
+.nav{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 1px solid rgba(7,17,27,0.1)
+}
+.nav li{
+    width: 2.5rem;
+    float: left;
+    font-size: 0.28rem;
+    color: rgb(77, 85, 93);
+    line-height: 0.8rem;
+    text-align: center;
+    /* color: rgb(240, 20, 20) */
+}
+.content{
+    position: relative;
+    display: flex;
+}
+.goodslist{
+    height: 8.8rem;
+    overflow-y: auto;
+}
+.goodslist li{
+    width: 1.60rem;
+    height: 1.08rem;
+    font-size: 0.24rem;
+    color: rgb(77, 85, 93);
+    line-height: 0.28rem;
+    border-bottom: 1px solid rgba(7,17,27,0.1);
+    background: #f3f5f7;
+    padding-left: 0.24rem;
+    position: relative;
+}
+.goodslist li p{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.special{
+    width: 0.24rem;
+    height: 0.24rem;
+}
+.specialtext p{
+    width: 1rem;
+}
+.scroll{
+    /* position: absolute; */
+    /* width: 100%; */
+    height: 8.8rem;
+    overflow-y: auto;
+    /* left:1.6rem;
+    top: 0; */
+    flex:1;
+}
+.listbox{
+    margin-bottom: 0.36rem;
+}
+.first{
+    flex:1;
+    width: 100%;
+    height: 0.52rem;
+    background: #f3f5f7;
+    border-left: 2px solid rgba(7,17,27,0.1);
+    font-size: 0.24rem;
+    color: rgba(147, 153, 159);
+    line-height: 0.52rem;
+    padding-left: 0.28rem
+}
+.goods{
+    float: left;
+    width: 1.14rem;
+    height: 1.14rem;
+    margin-top: 0.36rem;
+    margin-left: 0.36rem;
+}
+.goodshop_text{
+    width:64%;
+    margin-left: 0.2rem;
+    float: left;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.up{
+    font-size: 0.28rem;
+    color: rgb(7,17, 27);
+    line-height: 0.28rem;
+}
+.middle{
+    margin-top: 0.16rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: rgb(147, 153, 159);
+    margin-bottom: 0.16rem;
+}
+.down{
+    margin-top: 0.16rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: rgb(147, 153, 159);
+}
+.down1{
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: rgb(147, 153, 159);
+    margin-left: 0.24rem;
+}
+.price{
+    display: inline-block;
+    font-size: 0.28rem;
+    font-weight: normal/700;
+    line-height: 0.48rem;
+    color:red;
+}
+.goodshop_text del{
+    font-size: 0.2rem;
+    font-weight: normal/700;
+    line-height: 0.48rem;
+    color: rgb(147, 153, 159);
+    margin-left:0.16rem;
+    margin-bottom: 0.36rem;
+}
+.iconfont{
+   color: blue;
+   /* position: absolute; */
+   /* right: -1rem;  */
+}
+.icon-jian:before{
+    margin-right: 0.24rem;
+}
+.icon-jia:before{
+    margin-left: 0.24rem;
+}
+.num{
+    /* margin-left: 1.5rem; */
+    position: absolute;
+    right:0;
+}
+/* .iconfont1{
+    color: blue; 
+    margin-left: 0.5rem;
+} */
+.price1{
+    display: inline-block;
+    font-size: 0.28rem;
+    font-weight: normal/700;
+    line-height: 0.48rem;
+    color:red;
+    margin-right: 0.6rem; 
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 1.08rem;
+    background: rgba(19, 29, 38);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:11;
+}
+/* .icon-gouwuche{
+    font-size: 88px;
+}  */
+/* .icon-gouwuche{
+    font-size: 0.44rem;
+} */
+.icon-gouwuche::before{
+    position: absolute;
+    font-size: 0.7rem;
+    color: rgb(36, 39, 41);
+    left: 0.1rem;
+    /* top: 0.rem     */
+    }
+.circle{
+    width: 1.16rem;
+    height: 1.16rem;
+    border-radius: 0.88rem;
+    background-color: rgb(107, 110, 114);
+    margin-left: 0.36rem;
+    border: 0.12rem solid  rgba(19, 29, 38);
+    position: absolute;
+    top: -0.15rem;
+}
+/* .oncircle{
+    background-color:#00A0DC;
+} */
+.jiaqian{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.32rem;
+    font-weight: 700;
+    line-height: 0.48rem;
+    margin-left: 1.6rem;
+    margin-top: 0.3rem;
+}
+.fgx{
+    height: 0.48rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.1);
+    margin-left: 0.24rem;
+    margin-top: 0.3rem;
+    margin-right:0.24rem;
+}
+.carriage{
+    font-size: 0.32rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    line-height: 0.48rem;
+    margin-top: 0.3rem;
+}
+.total{
+    font-size: 0.32rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    line-height: 0.48rem;
+    width: 2.1rem;
+    height: 1.08rem;
+    background: #2B333B;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    padding-top: 0.3rem;
+}
+.ontotal{
+    background: #00A0DC;
+    color: red;
+}
+.shuliang{
+    width: 0.48rem;
+    height: 0.32rem;
+    background: red;
+    border-radius: 0.12rem;
+    position: absolute;
+    left: 1.2rem;
+    top: -0.1rem;
+    text-align: center;
+    color: white;
+    line-height: 0.32rem;
+}
+.mengceng2{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 17, 27, 0.6);
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+ .aa{
+    width: 100%;
+    height: 0.8rem;
+    background: #F3F5F7;
+    position: relative;
+}
+.shopping_cart{
+    font-size: 0.28rem;
+    font-weight: 200;
+    color: rgb(7, 17, 27);
+    line-height: 0.8rem;
+    position: absolute;
+    left: 0.36rem;
+}
+.delet{
+    font-size: 0.24rem;
+    /* color: rgb(0, 160, 220); */
+    line-height: 0.8rem;
+    position: absolute;
+    right: 0.36rem;
+}
+.list1{
+    width: 100%;
+    height: 0.96rem;
+    font-size: 0.28rem;
+    color: rgb(7, 17, 27);
+    line-height: 0.8rem;
+    background: white;
+    border-bottom:0.01rem solid rgba(7, 17, 27,0.1)
+    /* position: absolute;
+    left: 0.36rem; */
+}
+.sp{
+    position: absolute;
+    left:0.36rem;
+}
+/* .num1{
+    position: absolute;
+    right:0.36rem;
+} */
+/* 第二个页面样式 */
+.content1{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.c22{
+    height:8.8rem;
+    overflow-y: auto;
+}
+.dianpu{
+    width: 2.75rem;
+    height: 1.4rem;
+}
+.pfeng{
+    font-size: 0.48rem;
+    color: rgb(255, 153, 0);
+    line-height: 0.56rem;
+    margin-top: 0.36rem;
+    text-align: center;
+}
+.df{
+    font-size: 0.24rem;
+    color: #101A23;
+    line-height: 0.24rem;
+    text-align: center;
+    margin-top: 0.12rem;
+}
+.miaoshu{
+    font-size: 0.2rem;
+    color: #93999F;
+    line-height: 0.2rem;
+    text-align: center;
+    margin-top: 0.16rem;
+    margin-bottom: 0.48rem;
+}
+.fgx1{
+    margin-top:0.38rem;
+    height: 1.4rem;
+    border: 0.01rem solid #F2F3F3;
+}
+.right {
+    margin-left: 0.48rem;
+    margin-top: 0.36rem;
+}
+.right div{
+    margin-bottom: 0.16rem;
+    font-size: 0.24rem;
+    color: rgb(7, 17, 27);
+    line-height: 0.36rem;
+}
+.device_time{
+    font-size: 0.24rem;
+    color:#A4A9AE;
+    line-height: 0.36rem; 
+    margin-left: 0.24rem;
+}
+.huibg{
+    height: 0.35rem;
+    width: 100%;
+    background: #F3F5F7;
+    border-top: 0.01rem solid #E8E9EA;
+    border-bottom: 0.01rem solid #E8E9EA;
+}
+.star,.star1{
+    margin-left: 0.24rem;
+}
+.right img{
+    width: 0.3rem;
+    height: 0.29rem;
+    margin-right: 0.1rem;
+}
+.pf1,.pf2{
+    position: absolute;
+    right: 0.48rem;
+    font-size: 0.24rem;
+    color:#FF9900;
+    line-height: 0.36rem; 
+}
+.box_head{
+    width: 6.81rem;
+    height: 1rem;
+    border-bottom: 0.01rem solid #EFF0F0;
+    margin: 0.36rem auto 0 auto;
+    display: flex;
+}
+.box_one{
+    width: 1.2rem;
+    height: 0.64rem;
+    background: #00A0DC;
+    font-size: 0.3rem;
+    color: white;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.24rem;
+}
+.box_one_text{
+    font-size: 0.2rem;
+}
+.box_two{
+    width: 1.2rem;
+    height: 0.64rem;
+    background: #CCECF8;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.box_two_text{
+    font-size: 0.2rem;
+}
+.box_three{
+    width: 1.46rem;
+    height: 0.64rem;
+    background: #E9EBEC;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.box_three_text{
+    font-size: 0.2rem;
+}
+.gouxuan{
+    display: flex;
+    height: 0.98rem;
+    border-bottom: 0.01rem solid #E6E7E8;
+}
+.icon-gouxuan:before {
+    color: #B7BBBF;
+    font-size: 0.4rem;
+    margin-left: 0.36rem;
+    line-height: 0.98rem;
+}
+.gouxuan1_text{
+    font-size: 0.3rem;
+    line-height: 0.98rem;
+    margin-left: 0.2rem;
+    color: #999EA4;
+}
+.userbox{
+    display: flex;
+    border-bottom: 0.01rem solid #EAEBEC;
+}
+.userimg{
+    width: 0.56rem;
+    height: 0.56rem;
+    border-radius: 50%;
+    margin: 0.36rem 0.24rem 0.36rem 0.36rem;
+}
+.userpl{
+    flex: 1;
+    height: 1.88rem;
+    margin-top: 0.36rem;
+    border-bottom: none;
+}
+.user_time{
+    font-size: 0.2rem;
+    font-weight: 200;
+    color: rgb(143, 157, 159);
+    line-height: 0.24rem;
+    /* position: absolute;
+    right: 0.36rem; */
+    margin-left: 3rem;
+}
+.username{
+    font-size: 0.2rem;
+    color: rgb(7, 17, 27)
+}
+.userpl .userstar img{
+    width: 0.2rem;
+}
+.userstar{
+    height:0.2rem;
+    margin-top: 0.68rem;
+}
+.user_device{
+    font-size: 0.2rem;
+    font-weight: 200;
+    color: rgb(147, 153, 159);
+    line-height: 0.24rem;
+    margin-top: 0.68rem;
+    margin-left: 0.12rem;
+}
+.user_text{
+    margin-right: 0.36rem;
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+}
+.user{
+    width: 100%;
+    height:5rem;
+}
+.all{
+    /* filter: blur(0.1rem); */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mengceng_message{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(7, 17, 27, 0.6);
+    left: 0;
+    top: 0;
+    /* z-index:1; */
+}
+.mm_shop_name{
+    font-size: 0.32rem;
+    font-weight: 700;
+    color: white;
+    line-height: 0.32rem;
+    /* z-index: 1; */
+    text-align: center;
+    margin-top: 1.28rem;
+}
+.mm_star{
+    text-align: center;
+}
+.mm_star img{
+    margin-top: 0.32rem;
+    margin-left: 0.4rem;
+}
+.mm_text,.mm_text_2{
+    font-size: 0.32rem;
+    font-weight: 700;
+    color: white;
+    line-height: 0.32rem;
+    text-align: center;
+    margin-top: 0.56rem;
+}
+.mm_text::before{
+    content: "";
+    width: 2.24rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin-right: 0.24rem;
+    margin-bottom: 0.15rem;
+}
+.mm_text::after{
+    content: "";
+    width: 2.24rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin-left: 0.24rem;
+    line-height: 0.32rem;
+    margin-bottom: 0.15rem;
+}
+.mm_ul li{
+    font-size: 0.32rem;
+    font-weight: 200;
+    color: white;
+    line-height: 0.24rem;
+    margin-bottom: 0.24rem;
+}
+.mm_ul li img{
+    margin-right: 0.12rem;
+    width: 0.32rem;
+    height: 0.32rem;
+}
+.mm_ul{
+    margin-top: 0.48rem;
+    margin-left: 0.96rem;
+}
+.mm_text_2::before{
+    content: "";
+    width: 2.24rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin-right: 0.24rem;
+    margin-bottom: 0.15rem;
+}
+.mm_text_2::after{
+    content: "";
+    width: 2.24rem;
+    border: 0.01rem solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin-left: 0.24rem;
+    line-height: 0.32rem;
+    margin-bottom: 0.15rem;
+}
+.mm_message{
+    font-size: 0.28rem;
+    font-weight: 200;
+    color: white;
+    line-height: 0.48rem;
+    margin-left: 0.96rem;
+    margin-right: 0.96rem;
+    margin-top: 0.48rem;
+}
+.icon-cha:before{
+    font-size: 0.64rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    bottom: 0.64rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.shopcontent{
+    width: 100%;
+    height:8.8rem;
+    overflow-y: auto;
+}
+.shopheader{
+    position: relative;
+}
+.shopname{
+    font-size: 0.28rem;
+    color: rgb(7, 17, 27);
+    line-height: 0.28rem;
+    margin-left: 0.36rem;
+    margin-top: 0.36rem;
+    margin-bottom: 0.16rem;
+}
+.shopstar{
+    display: flex;
+    height:0.3rem ;
+    margin-left: 0.36rem;
+}
+.shopstar img{
+    width: 0.3rem;
+    height: 0.3rem;
+}
+.shop_num{
+    height: 0.36rem;
+    font-size: 0.2rem;
+    color: rgb(77, 85, 93);
+    margin-top: -0.03rem;
+    margin-left: 0.16rem;
+}
+.shop_sale{
+    height: 0.36rem;
+    font-size: 0.2rem;
+    color: rgb(77, 85, 93);
+    margin-top: -0.03rem;
+    margin-left: 0.24rem;
+}
+.icon-xin1:before{
+    font-size: 0.48rem;
+    color: rgb(240, 20, 20);
+    margin-right: 0.36rem;
+    margin-bottom: 0.36rem;
+    position: absolute;
+    right: 0;
+    top: -0.1rem;
+}
+.icon-xin:before {
+    font-size: 0.48rem;
+    color: rgb(240, 20, 20);
+    margin-right: 0.36rem;
+    margin-bottom: 0.36rem;
+    position: absolute;
+    right: 0;
+    top: -0.1rem;
+}
+.sc{
+    position: absolute;
+    right:0.2rem;
+    top: 0.48rem; 
+}
+.shop_xian1{
+    width: 100%-0.72rem;
+    border: 0.01rem solid rgba(7, 17, 27,0.1);
+    margin-top: 0.36rem;
+    margin-left: 0.36rem;
+    margin-right: 0.36rem;
+}
+.shop_content li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+    line-height: 0.2rem;
+    margin-top: 0.36rem;
+    border-right: 0.01rem solid  rgba(7, 17, 27,0.5);
+}
+.shop_content_content li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    line-height: 0.48rem;
+    padding-top: 0.08rem;
+    margin-bottom: 0.36rem;
+    border-right: 0.01rem solid  rgba(7, 17, 27,0.5);
+}
+.shop_content_content1{
+    font-size: 0.48rem;
+    color: rgb(7, 17, 27);
+}
+.shop_content_content2{
+    font-size: 0.2rem;
+    color: rgb(7, 17, 27);
+}
+.shop_center_area{
+    width: 100%;
+    height: 0.36rem;
+    background: #F3F5F7;
+    border: 0.01rem solid #E6E7E8;
+}
+.shop_center_title{
+    font-size: 0.28rem;
+    color: rgb(7, 17, 27);
+    line-height: 0.28rem;
+    margin-top: 0.36rem;
+    margin-left: 0.36rem;
+    margin-bottom: 0.16rem;
+}
+.shop_center_text{
+    font-size: 0.24rem;
+    font-weight: 200;
+    color: rgb(240, 20, 20);
+    line-height: 0.48rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.32rem;
+}
+.shop_text1{
+    font-size: 0.24rem;
+    font-weight: 200;
+    color: rgb(7, 17, 27);
+    line-height: 0.32rem;
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem;
+    margin-left: 0.12rem;
+}
+.single li{
+    margin-left: 0.36rem;
+    margin-right: 0.36rem;
+    /* width: 100%; */
+    border-top: 0.01rem solid rgb(7, 17, 27,0.1);
+}
+.single img{
+    width: 0.32rem;
+    height: 0.32rem;
+    margin-left: 0.24rem;
+    margin-top: 0.32rem;
+    margin-bottom: 0.32rem;
+}
+.shop_center_title2{
+    font-size: 0.28rem;
+    color: rgb(7, 17, 27);
+    margin: 0.36rem 0 0.24rem 0.36rem;
+}
+.shop_div{
+    width: 7rem;
+    height: 1.8rem;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0.36rem;
+    margin-left: 0.36rem;
+}
+.shop_ul{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.shop_ul li{
+    margin-left: 0.12rem;
+}
+.shop_img{
+    width: 2.4rem;
+    height: 1.8rem;
+}
+.single1 li{
+    border-top: 0.01rem solid rgb(7, 17, 27,0.1);
+    margin-left: 0.24rem;
+    margin-right: 0.24rem;
+    height: 0.96rem;
+    position: relative;
+}
+.shop_text21{
+    font-size: 0.24rem;
+    font-weight: 200;
+    color: rgb(7, 17, 27);
+    position: absolute;
+    left: 0.24rem;  
+    top: 50%;
+    transform: translateY(-50%)
+}
+.detail{
+    width: 100%;
+    height:12.3rem;
+    position: relative;
+    overflow-y: auto;
+}
+.detail_img{
+    width: 100%;
+    height: 7.5rem;
+}
+.de_foodName{
+    font-size: 0.28rem;
+    font-weight: 700;
+    color: rgb(7, 17, 27);
+    line-height: 0.28rem;
+    margin: 0.36rem 0.36rem 0.16rem 0.36rem;
+}
+.de_seller{
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+    line-height: 0.2rem;
+    margin: 0.16rem 0.24rem 0.36rem 0.36rem;
+}
+.de_hp{
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+    line-height: 0.2rem;
+}
+.de_newprice{
+    font-size: 0.48rem;
+    font-weight: 700;
+    color: rgb(240, 20, 20);
+    line-height: 0.48rem;
+    margin-right: 0.2rem;
+}
+.de_oldprice{
+    font-size: 0.32rem;
+    font-weight: normal;
+    color: rgb(147, 153, 159);
+    line-height: 0.48rem;
+    margin-top: 0.05rem;
+}
+.de_box{
+    display: flex;
+    margin: 0.36rem auto 0.36rem 0.36rem;
+}
+.de_gouwuche{
+    width: 1.68rem;
+    height: 0.48rem;
+    color: white;
+    background: #00A0DC;
+    border-radius: 0.24rem;
+    font-size: 0.2rem;
+    line-height: 0.48rem;
+    text-align: center;
+    position: absolute;
+    right: 0.36rem;
+}
+.de_box_head{
+    width: 6.81rem;
+    height: 1rem;
+    border-bottom: 0.01rem solid #EFF0F0;
+    margin: 0.36rem auto 0 auto;
+    display: flex;
+}
+.de_box_one{
+    width: 1.2rem;
+    height: 0.64rem;
+    background: #00A0DC;
+    font-size: 0.3rem;
+    color: white;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.24rem;
+}
+.de_box_one_text{
+    font-size: 0.2rem;
+}
+.de_box_two{
+    width: 1.2rem;
+    height: 0.64rem;
+    background: #CCECF8;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.de_box_two_text{
+    font-size: 0.2rem;
+}
+.de_box_three{
+    width: 1.46rem;
+    height: 0.64rem;
+    background: #E9EBEC;
+    font-size: 0.3rem;
+    color: black;
+    line-height: 0.64rem;
+    text-align: center;
+    margin-right: 0.2rem;
+}
+.de_box_three_text{
+    font-size: 0.2rem;
+}
+.spje{
+    font-size: 0.28rem;
+    font-weight: 700;
+    color: rgb(7, 17, 27);
+    line-height: 0.28rem;
+    margin: 0.36rem 0.36rem 0.12rem 0.36rem;
+}
+.de_text{
+    font-size: 0.24rem;
+    font-weight: 200;
+    color: rgb(77, 85, 93);
+    line-height: 0.48rem;
+    margin-left: 0.52rem;
+    margin-right: 0.52rem;
+    margin-bottom: 0.36rem;
+}
+.de_ul li{
+    height: 1.48rem;
+    margin-left: 0.36rem;
+    margin-right: 0.36rem;
+    /* width: 100%; */
+    border-bottom: 0.01rem solid rgb(7, 17, 27,0.1);
+}
+.de_time{
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+    line-height: 0.24rem;
+}
+.de_name{
+    font-size: 0.2rem;
+    color: rgb(147, 153, 159);
+    line-height: 0.24rem;
+}
+.de_img{
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 0.24rem;
+}
